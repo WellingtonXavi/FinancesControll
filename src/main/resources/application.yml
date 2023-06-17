@@ -1,0 +1,19 @@
+server:
+ port: 8081
+
+spring:
+ jpa:
+  properties:
+    hibernate:
+    format_sql: true
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+   
+   
+ datasource:
+  url: jdbc:h2:mem:pedido
+  username: sa
+  password:
+  driver-class-name: org.h2.Driver
+  
